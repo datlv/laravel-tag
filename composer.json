@@ -1,0 +1,43 @@
+{
+    "name": "datlv/laravel-tag",
+    "description": "Laravel Tags Package",
+    "keywords": [
+        "datlv",
+        "laravel-tag"
+    ],
+    "homepage": "https://github.com/datlv/laravel-tag",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Datlv",
+            "email": "datle2011@gmail.com",
+            "homepage": "http://Datlv.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "mockery/mockery": "0.9.*",
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Datlv\\Tag\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Datlv\\Tag\\Test\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Datlv\\Tag\\ServiceProvider"
+            ]
+        }
+    }
+}
